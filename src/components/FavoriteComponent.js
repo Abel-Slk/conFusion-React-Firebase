@@ -7,12 +7,16 @@ function RenderMenuItem({ dish, deleteFavorite }) {
     return(
         <Media tag="li">
             <Media left middle>
-                <Media object src={dish.image} alt={dish.name} />
+                <Media object width="350px" src={dish.image} alt={dish.name} />
             </Media>
+
             <Media body className="ml-5">
                 <Media heading>{dish.name}</Media>
+
                 <p>{dish.description}</p>
-                <Button outline color="danger" onClick={() => deleteFavorite(dish._id)}>
+
+                <Button outline color="danger" 
+                    onClick={() => deleteFavorite(dish._id)}>
                     <span className="fa fa-times"></span>
                 </Button>
             </Media>
