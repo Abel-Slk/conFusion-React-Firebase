@@ -23,3 +23,8 @@ All data is stored entirely on Firebase servers:
 - Image resources are stored in Firebase Storage
 
 Authentication via Google is also enabled through Firebase.
+
+# Usage
+To start up locally:
+
+`npm start`
