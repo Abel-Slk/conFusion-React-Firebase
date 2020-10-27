@@ -15,6 +15,11 @@ Implemented as a single page React app. Navigation is done via React Router. App
 - Reactstrap (Bootstrap)
 - React Transition Group and React Animation Components for animation
 
+## Usage
+To run the frontend React client locally:
+
+`npm start`
+
 # Backend
 Implemented using Firebase BaaS. 
 
@@ -23,8 +28,3 @@ All data is stored entirely on Firebase servers:
 - Image resources are stored in Firebase Storage
 
 Authentication via Google is also enabled through Firebase.
-
-# Usage
-To start up locally:
-
-`npm start`
