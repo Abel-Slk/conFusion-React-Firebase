@@ -2,6 +2,8 @@
 
 A restaurant website with a React + Redux frontend and a Firebase backend. Users can log in using their username and password or using their Google account. Logging in enables users to add comments to the dishes in the menu, as well as add dishes to their personal list of favorites.
 
+See the screenshots folder for both frontend and backend screens.
+
 The app is hosted at: https://confusionserver-b29fc.web.app
 
 # Frontend
